@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Noto Naskh Arabic UI, Arial, sans-serif;
+}
+
+
+/* nav style */
+
+.nav {
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav li a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+
+/* body style */
+
+.input-field {
+    height: 50px;
+    width: 638px;
+    position: relative;
+    margin-left: 430px;
+}
+
+.input-field .search {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    background: #fff;
+    display: block;
+    padding: 10px 32px 10px 70px;
+    font-size: 18px;
+    color: #666;
+    border-radius: 34px;
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.1), 3px 3px 9px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(124, 119, 119, 0.1);
+}
+
+.input-field .btn-search {
+    width: 70px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field .btn-search svg {
+    fill: #ccc;
+    width: 30px;
+    height: 30px;
+    transition: all .2s ease-out, color .2s ease-out;
+}
+
+.input-field .btn-search:hover,
+.input-field .btn-search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.input-field .btn-search:hover svg,
+.input-field .btn-search:focus svg {
+    fill: #666;
+}
+
+.center {
+    margin: 100px 0 auto;
+    text-align: center;
+}
+
+.btn {
+    border: 1px solid #e8eaed;
+    border-radius: 4px;
+    color: #303134;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+    border-color: #303134;
+}
+
+input:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+input .placeholder {
+    color: #ccc;
+    font-size: 18px;
+}
+
+input:hover {
+    cursor: text;
+}
+
+
+/* Advance serach */
+
+.container {
+    margin: 0 20px;
+}
+
+p {
+    font-size: 13px;
+}
+
+span {
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.p1 {
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+td {
+    width: 290px;
+}
+
+.td1 {
+    width: 190px;
+}
+
+td input {
+    width: 260px;
+}
+
+.btnl {
+    margin-top: 20px;
+    margin-left: 485px;
+}
+
+.no1 {
+    width: 120px;
+    margin-right: 4px;
+}
+
+.no2 {
+    width: 120px;
+}
